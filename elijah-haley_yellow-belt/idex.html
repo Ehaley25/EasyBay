@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulent Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="imgEasybay"> 
+                <img src="leaf.png" alt="image of leaf logo" class="leaf">
+                <h2>EasyBay</h2>
+            </div>
+            <input type="search" name="search" id="search" class="searchbar" placeholder="Search for anything">
+            <div class="signCart">
+                <button class="signIn"> Sign in</button>
+                <img src="cart-dark.png" alt="grocery cart logo" class="cart" onclick="alert('Your cart is empty')">
+            </div>
+        </div>
+        <div class="plantsList">
+            <ul class="list">
+                <li>Aeonium</li>
+                <li>Andormischus</li>
+                <li>Agave</li>
+                <li>Aloe</li>
+                <li>Anacampseros</li>
+                <li>Arisaloe</li>
+                <li>More...</li>
+            </ul>
+            <div class="bar"> </div>
+            <!-- UNDERLINE TYPE THING GOES RIGHT HERE -->
+        </div>
+        <h1 class="heading"> Your Source for Serious Succulent Specialties</h1>
+        <div class="row">
+            <div class="col1">
+                <div class="discoverSucculent">
+                    <h2 class="discoverVar"> Discover Succ-<br>ulent varieties one pot or rack at a time!</h2> <br>
+                    <h2 class="discover" > Discover <img src="arrow-light.png" alt="arrow pointing right" class="arrow"></h2>
+                </div>
+                <div class="discoverImg">
+                    <img src="succulents-1.jpg" onmouseover="change(this)" onmouseleave="changeBack(this)" alt="succulents" class="discoverImg" >
+                </div>
+            </div>
+            <div class="col2">
+                <img src="aloe-m.jpg" alt="Top view of aloe cactus">
+                <div class="soothingAloe"> <p> Soothing Aloe  <img src="arrow-light.png" alt="arrow pointing right" class="aloeArrow"> </p>
+                </div>
+            </div>
+        </div>
+        <div class="plants">
+            <div class="plantName">
+                <img src="aeonium-s.jpg" alt="picture of aeonium" class="plantImg">
+                <p class="aloe"> Aeonium </p>
+            </div>
+            <div class="plantName">
+                <img src="aloe-s.jpg" alt="picture of aloe" class="plantImg">
+                <p class="aloe"> Aloe </p>
+            </div>
+            <div class="plantName">
+                <img src="cactus-s.jpg" alt=" picture of cactus" class="plantImg">
+                <p class="aloe"> Cactus </p>
+            </div>
+            <div class="plantName">
+                <img src="echeveria-s.jpg" alt="picture of echeveria" class="plantImg">
+                <p class="aloe"> Echeveria </p>
+            </div>
+            <div class="plantName">
+                <img src="sedum-s.jpg" alt=" Picture of sedum" class="plantImg">
+                <p class="aloe">Sedum </p>
+            </div>
+            <div class="plantName">
+                <img src="sempervivum-s.jpg" alt=" picture of sempervivum" class="plantImg">
+                <p class="aloe"> Sempervivum</p>
+            </div>
+        </div>
+        <div id="cookies" >
+                <img src="alert-dark.png" alt="triangle with !">
+                <p> This site makes use of third-party cookies, by clicking "I accept" you agree to accept to the <br> terms outlined in our <a href="#"> cookie policy</a></p>
+                <button class="accept" onclick="disappear('#cookies')"> I accept</button>
+        </div>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>

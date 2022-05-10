@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    width: 980px;
+    margin: 0px auto;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.leaf{
+    background-color: #00d1b2;
+    height: 20px;
+    margin-right:10px ;
+}
+.imgEasybay{
+    display: flex;
+    align-items: center;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 25px;
+    width: 700px; 
+    height: 25px;
+    margin-left: 10px;
+    padding: 10px;
+
+    /* just for now^^^^^^^^ */
+}
+.signCart{
+    display: flex;
+}
+.signIn{
+    background-color: white;
+    border: none;
+    margin-right: 20px;
+}
+.cart{
+    height: 30px;
+    cursor: pointer;
+}
+.heading{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top:20px ;
+    margin-bottom: 20px;
+}
+.plantList{
+    display: flex;
+    text-decoration: underline;
+    
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.row{
+    display: flex;
+    
+}
+.col1{
+    flex: 2;
+    display: flex;
+}
+.col2{
+    flex: 1;
+}
+.discoverSucculent {
+    display: inline-block;
+    background-color: #00d1b2 ;
+    height: auto;
+    width: 300px;
+    padding: 20px 10px 10px 10px;
+    color: white;
+    
+}
+.discoverImg{
+    display: flex;
+    height: auto;
+    width: 300px;
+    
+}
+.arrow{
+    height: 30px;
+    vertical-align: middle;
+    
+}
+.discover{
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 70px;
+}
+.discoverVar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.soothingAloe{
+    background-color: #00d1b2  ;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 15px;
+    height: 80px;
+    color: white;
+}
+.aloeArrow{
+    height: 20px;
+    vertical-align: middle;
+}
+.plants{
+    background-color: #aae8d8 ;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 220px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.plantImg{
+    height: 120px;
+    border-radius: 100px ;
+}
+.plants p{
+    width: 120px;
+    text-align: center;
+
+}
+.bar{
+    border: 2px solid black;
+    margin-top: 2px;
+}
+#cookies{
+    display: flex;
+    background-color: white;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 977px;
+    position: absolute;
+    bottom: 40px;
+}
+.accept{
+    background-color: #aae8d8;
+    border: 2px solid black;
+    height: 25px;
+    width: 65px;
+    margin-right: 10px;
+    box-shadow: 3px 2px 1px black;
+    cursor: pointer;
+}
