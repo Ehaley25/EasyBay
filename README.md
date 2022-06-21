@@ -1,0 +1,1 @@
+EasyBay was an assignment to display the skills we have learned in coding dojos bootcamp. The purpose of this assignment was to be able to look at a website interface and break it down into a process we use called the “Lego concept” to make an exact replica to pass. At the time we were only allowed to use CSS to show we understand box models, flexbox, and similar CSS properties.
